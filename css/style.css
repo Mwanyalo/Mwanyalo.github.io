@@ -197,6 +197,20 @@ nav li {
 	transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 58rem) {
+  .toggle_menu{
+    padding: 0.094em 0.094em 0.094em 0.094em;
+    font-size: 2em;
+  }
+  nav li {
+  	margin: 0.1em;
+  }
+  .sidebar_menu img{
+    max-width: 70%;
+    height: auto;
+ }
+}
+
 /* home-hero
 ================*/
 
@@ -292,7 +306,7 @@ nav li {
   }
   .my-service-textbox {
       text-align: left;
-      padding: 6em 1em 1em 1em;
+      padding: 5em 1em 1em 1em;
          }
 
    .my-service-textbox .h1 {
